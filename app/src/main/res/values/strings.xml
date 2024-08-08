@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Assignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_the_app">Welcome To The App</string>
+    <string name="welcome">Welcome</string>
+    <string name="my_map">AIzaSyBi-GvTIeS1plrkhtwHewWn03yXTkI2T2s</string>
+</resources>
