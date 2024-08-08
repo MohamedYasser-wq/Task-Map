@@ -9,6 +9,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.assignment.Data.CityItem
 import com.example.myassignment.R
 
+
+// We use RecyclerView here because it is more efficient for displaying large sets of data.
+// RecyclerView provides several advantages:
+// 1. ViewHolder Pattern: RecyclerView enforces the ViewHolder pattern, which improves performance by reducing the number of `findViewById` calls.
+// 2. Recycling of Views: Only a limited number of item views are created and reused as the user scrolls. This avoids the creation of a new view for each item, which can be memory-intensive and lead to laggy scrolling.
+// 3. Flexible Layout Management: RecyclerView allows the use of different layout managers (LinearLayoutManager, GridLayoutManager, etc.), making it more adaptable for different UI requirements.
+
+
 class CityAdapter(private var cities: List<CityItem>, private val listener: OnClick) : RecyclerView.Adapter<CityAdapter.CityViewHolder>() {
 
     interface OnClick {
